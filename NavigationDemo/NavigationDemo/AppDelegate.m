@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //统一设置整个app的所有导航栏的背景颜色
+//    [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
+    
     return YES;
 }
 
